@@ -69,7 +69,7 @@ function WeatherFunc(){
     }
     useEffect(()=>{
         Search("America")
-    },[])
+    },[Search])
     return(
         <>
         <div className="bgImg" style={{backgroundImage:`url("${background}")`}}>

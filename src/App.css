@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-image:url("./Assets/clearday.jpg");
+  background-size: cover;
+  padding:45px;
+  background-position: center; 
 }
 
 .App-logo {
